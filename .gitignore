@@ -1,0 +1,13 @@
+HdrFluentTray.exe
+HdrFluentTray.ico
+dist/
+build/
+tests/bin/
+*.log
+*.tmp
+*.user
+.vs/
+status.json
+manual.json
+ui-settings.json
+stop.request
