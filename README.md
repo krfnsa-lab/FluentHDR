@@ -71,3 +71,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Run.ps1
 设置、状态与日志保存在 `%LOCALAPPDATA%\CodexHdrSwitch`。应用识别在本机完成，运行工具不联网；日志记录进程名与切换原因，不记录浏览器或视频标题。图标使用 Windows 自带的 Segoe Fluent Icons 字体，安装包不包含字体文件。
 
 右键“退出”会停止托盘和自动识别，并保留当前显示模式。如需停用登录启动，先在设置中关闭“登录 Windows 后运行”。卸载时，关闭登录启动并退出程序，再删除安装目录及开始菜单中的“显示模式”快捷方式即可。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。Windows 系统字体不包含在项目或安装包中。
